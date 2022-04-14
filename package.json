@@ -1,0 +1,38 @@
+{
+  "name": "init-git",
+  "version": "1.0.0",
+  "description": "A CLI tool to bootstrap creating and pushing to a git repo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalihuDickson/init-git.git"
+  },
+  "keywords": [
+    "Git",
+    "CLI"
+  ],
+  "author": "salihu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SalihuDickson/init-git/issues"
+  },
+  "homepage": "https://github.com/SalihuDickson/init-git#readme",
+  "dependencies": {
+    "@octokit/auth-basic": "^1.4.8",
+    "@octokit/rest": "^16.36.0",
+    "chalk": "^5.0.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^6.0.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.2",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.6",
+    "simple-git": "^3.6.0",
+    "touch": "^3.1.0"
+  }
+}
